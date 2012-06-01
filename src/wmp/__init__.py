@@ -6,3 +6,6 @@
 
     ØMQ-WMP implementation using pyzmq
 """
+
+
+from worker import Worker
