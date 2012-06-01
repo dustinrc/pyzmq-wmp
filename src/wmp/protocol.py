@@ -13,12 +13,12 @@ MANAGER_PROTO_VERSION = b'WMPM01'
 
 
 COMMANDS = {
-            'READY' : 0x01,
-            'WAKE'  : 0x02,
-            'GIVE'  : 0x03,
-            'TAKE'  : 0x04,
-            'NO'    : 0x05,
-            'DONE'  : 0x06,
-            'STATUS': 0x07,
-            'CANCEL': 0x08,
+            'READY' : b'\x01',
+            'WAKE'  : b'\x02',
+            'GIVE'  : b'\x03',
+            'TAKE'  : b'\x04',
+            'NO'    : b'\x05',
+            'DONE'  : b'\x06',
+            'STATUS': b'\x07',
+            'CANCEL': b'\x08',
            }
